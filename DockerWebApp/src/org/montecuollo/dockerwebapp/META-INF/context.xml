@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>		
+		
+<Context antiResourceLocking="true" antiJARLocking="true" path="/DockerWebApp">
+	<Resource auth="Container" driverClassName="org.mariadb.jdbc.Driver"
+		maxActive="30" maxIdle="10" maxWait="-1" name="jdbc/DOCKERWEBAPP"
+		password="${DATABASE.PASSWORD}" type="javax.sql.DataSource"
+		url="${DATABASE.URL}"
+		username="${DATABASE.USERNAME}" removeAbandoned="true" logAbandoned="true" />
+</Context>

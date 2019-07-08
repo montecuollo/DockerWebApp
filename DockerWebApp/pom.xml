@@ -36,7 +36,7 @@
           <warSourceDirectory>WebContent</warSourceDirectory>
           <webResources>
           <resource>
-          	<directory>src\org\montecuollo\dockerwebapp\META-INF</directory>          	          	
+          	<directory>src/org/montecuollo/dockerwebapp/META-INF</directory>          	          	
           	<targetPath>META-INF</targetPath>
           	<filtering>true</filtering>
           	</resource>

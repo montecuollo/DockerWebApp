@@ -44,7 +44,7 @@ ResultSet resultSet = null;
 <h1>Data from an Azure database for MariaDB</h1>
 <table border="1">
 <tr>
-<td>cognome</td>
+<td><b>cognome</b></td>
 <td>nome</td>
 <td>sesso</td>
 </tr>

@@ -9,9 +9,6 @@
 <%
 
 
-
-
-
 String driver = "org.mariadb.jdbc.Driver";
 String connectionUrl = "jdbc:mariadb://ferdymariadb.mariadb.database.azure.com:3306/";
 String database =  "${env.MARIADB_DATABASE}"; //"DOCKERWEBAPP";
@@ -19,15 +16,6 @@ String userid = "${env.MARIADB_USER}";//"fernando@ferdymariadb";
 String password = "${env.MARIADB_PASSWORD}";//"Sorgesan@";
 
 
-
-
-
-/*
-try {
-Class.forName(driver);
-} catch (ClassNotFoundException e) {
-e.printStackTrace();
-}*/
 Connection connection = null; 
 Statement statement = null;
 ResultSet resultSet = null;
@@ -45,12 +33,11 @@ ResultSet resultSet = null;
 <table border="1">
 <tr>
 <td><b>cognome</b></td>
-<td>nome</td>
+<td><b>nome</b></td>
 <td>sesso</td>
 </tr>
 <%
 try{
-//connection = DriverManager.getConnection(connectionUrl+database, userid, password);
 connection= DbUtils.getDataSourceConnection("DOCKERWEBAPP");
 statement=connection.createStatement();
 String sql ="select * from PERSONE";

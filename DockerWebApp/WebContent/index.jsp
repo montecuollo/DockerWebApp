@@ -30,7 +30,7 @@ ResultSet resultSet = null;
 <p>Hello, docker application user</p>
 <p></p>
 <p></p>
-<p><i>This web application has been deployed to AKS by a CI/CD process</i></p>
+<p><i>This web application was deployed to AKS by a CI/CD process</i></p>
 <p></p>
 <h1>Data from an Azure database for MariaDB</h1>
 <table border="1">

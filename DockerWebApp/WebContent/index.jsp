@@ -34,7 +34,7 @@ ResultSet resultSet = null;
 <tr>
 <td><b>cognome</b></td>
 <td><b>nome</b></td>
-<td>sesso</td>
+<td><b>sesso</b></td>
 </tr>
 <%
 try{

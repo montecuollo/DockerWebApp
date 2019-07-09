@@ -28,7 +28,7 @@ ResultSet resultSet = null;
 </head>
 <body>
 <p>Hello, docker application user</p>
-
+<p><i>This application has been deployed to AKS by a CI/CD process</i></p>
 <h1>Data from an Azure database for MariaDB</h1>
 <table border="1">
 <tr>

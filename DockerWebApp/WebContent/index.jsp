@@ -43,7 +43,7 @@ ResultSet resultSet = null;
 try{
 connection= DbUtils.getDataSourceConnection("DOCKERWEBAPP");
 statement=connection.createStatement();
-String sql ="select * from PERSONE";
+String sql ="select * from PERSONE order by COGNOME,NOME";
 resultSet = statement.executeQuery(sql);
 while(resultSet.next()){
 %>
